@@ -11,7 +11,7 @@ First, create scraping.py which uses BeautifulSoup and Splitter to automate the 
 <img width="1426" alt="Screen Shot 2022-05-23 at 11 08 41 AM" src="https://user-images.githubusercontent.com/79609464/169872196-e977d06f-bcad-4432-8c8f-41c96d6a67bc.png">
 
 ### Challenges and Difficulties
-For the sake of index.html's list comprehension (lines 65-75), inserting data to mongo required a specific order- different than our python dataframe; to rectify this, lines 111-116 were added to scraping.py to convert the dictionaries structure- a simpler method could exist.
+For the sake of html list comprehension (lines 65-75), inserting data to mongo required a specific order- different than our python dataframe; to rectify this, lines 111-116 were added to scraping.py to convert the dictionaries structure- a simpler method could exist.
 
 ## Summary
 We've used html to store scrapped data and flask to activate the website (scraping new data at the press of a button).
