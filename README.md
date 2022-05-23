@@ -1,9 +1,9 @@
 # Mars-Mission
 ## Overview
-Create a web application that store's scraped Nasa data and has a button to update.
+Create a web application that store's scraped Nasa data and has an button to update.
 
 ### Purpose
-First, create scraping.py which uses BeautifulSoup and Splitter to automate the scraping process, storing its results in a python dictionary; find the required components using chrome's developer tools and identify HTML elements. Then create mars_app db in mongo to store this dictionary. Finally, query the NoSQL database to retrieve Nasa's data and store it in the flask application app.py, with templates/index.html (flask requires the folder templates) to store our website's structure.
+Create scraping.py which uses BeautifulSoup and Splitter to automate the scraping process, storing its results in a python dictionary; find the required components using chrome's developer tools and identify HTML elements. Then create mars_app db in mongo to store this dictionary. Finally, query the NoSQL database to retrieve Nasa's data and store it in the flask application app.py, with templates/index.html (flask requires the folder templates) to store our website's structure.
 
 ## Website
 <img width="1438" alt="Screen Shot 2022-05-23 at 11 08 05 AM" src="https://user-images.githubusercontent.com/79609464/169873100-e179e480-372d-4e11-811c-bf2de0f69815.png">
